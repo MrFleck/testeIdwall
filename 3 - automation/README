@@ -1,0 +1,7 @@
+# TesteIdwall
+
+- Ter o java sdk e o jdk instalados na maquina.
+- Ter o Maven instalado na maquina.
+- Foi usado a IntelliJ para realizar a automação deste caso de teste.
+- Abra o IntelliJ e importe a pasta "Automation" do projeto.
+- Antes de rodar os testes, realizar a importação das dependencias no arquivo pom.xml (Algumas configurações do IntelliJ importam as dependencias automaticamentes, caso isso não ocorra abra o arquivo pom.xml e realize as importações das dependencias).
