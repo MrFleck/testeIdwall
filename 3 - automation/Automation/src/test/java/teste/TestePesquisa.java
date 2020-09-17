@@ -20,7 +20,7 @@ public class TestePesquisa {
     private WebDriver navegador;
     private ChromeOptions options;
     private WebDriverWait wait; 
-
+ 
 
     @Before
     public void setUp(){
