@@ -5,3 +5,4 @@
 - Foi usado a IntelliJ para realizar a automação deste caso de teste.
 - Abra o IntelliJ e importe a pasta "Automation" do projeto.
 - Antes de rodar os testes, realizar a importação das dependencias no arquivo pom.xml (Algumas configurações do IntelliJ importam as dependencias automaticamentes, caso isso não ocorra abra o arquivo pom.xml e realize as importações das dependencias).
+- Caso esteja rodando em uma maquina com windows, colocar o caminho completo para a pasta libs, pasta onde encontra-se o chromeDriver, antes de executar o teste

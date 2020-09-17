@@ -29,6 +29,9 @@ public class TestePesquisa {
             System.setProperty("webdriver.chrome.driver", "libs/mac/chromedriver");
         } else if (OS.indexOf("nux") >= 0) {
             System.setProperty("webdriver.chrome.driver", "libs/linux/chromedriver");
+        }else{
+            //COLOCAR CAMINHO COMPLETO DO SISTEMA ANTES DE REALIZAR O TESTE EM UMA MAQUINA COM WINDOWS
+            System.setProperty("webdriver.chrome.driver", "//COLOCAR CAMIHO DA PASTA AQUI///libs/win/chromedriver.exe");
         }
         System.out.println("SISTEMA: " + OS);
         options = new ChromeOptions();
