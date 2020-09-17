@@ -39,6 +39,11 @@ Funcionalidade: ACESSAR LINKS DO MENU
         Dado que o usuário acesse a url "blog.idwall.co"
         Quando clicar na opção "ONBOARDING" no menu
         Então o link para a pagina onboarding deverá ser acessado com sucesso
+        
+    Cenario: ACESSAR PÁGINA PRIVACIDADE ATRAVÉS DO LINK NO MENU
+        Dado que o usuário acesse a url "blog.idwall.co" 
+        Quando clicar na opção "Privacidade" no menu
+        Então o link para a pagina Privacidade deverá ser acessado com sucesso
 
     Cenario: ACESSAR PÁGINA OUTROS ATRAVÉS DO LINK NO MENU
         Dado que o usuário acesse a url "blog.idwall.co" 
@@ -67,14 +72,14 @@ Funcionalidade: VALIDAR CAMPO DE PESQUISA
         Quando clicar na lupa de pesquisa
         E não inserir nenhum dado na caixa de pesquisa
         E pressionar <ENTER>
-        Então deverá ser exibido uma pagina de resultados com todos os posts 
+        Então deverá ser exibido uma pagina de resultados com posts recentes
 
     Cenario: REALIZAR PESQUISA COM DADOS INVÁLIDOS
         Dado que o usuário acessa a url "blog.idwall.co"
         Quando clicar na lupa de pesquisa
         E inserir dados inválidos na caixa de pesquisa
         E pressionar <ENTER>
-        Então deverá ser exibido a pagina de resultados com uma mensagem de "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+        Então deverá ser exibido a pagina de resultados com uma mensagem "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 
 
     Cenario: REALIZAR PESQUISA COM DADOS PARCIAIS
@@ -137,3 +142,24 @@ Funcionalidade: SELECIONAR CATEGORIA ATRAVÉS DO CHECK-BOX NA HOMEPAGE
         Então o site deverá acessar a página com posts da categoria selecionada
 
 
+Funcionalidade: COMPARTILHAR ARTIGO PELOS LINKS DAS REDES SOCIAIS
+
+    Cenario: COMPARTILHAR ARTIGO NO FACEBOOK
+        Dado que o usuário acessa a url "blog.idwall.co"
+        Quando clicar no icone do facebook no rodapé da miniatura do artigo 
+        Então o site deverá acessar a página de compartilhamento do facebook
+
+    Cenario: COMPARTILHAR ARTIGO NO TWITTER
+        Dado que o usuário acessa a url "blog.idwall.co"
+        Quando clicar no icone do twitter no rodapé da miniatura do artigo 
+        Então o site deverá acessar a página de compartilhamento do twitter
+    
+    Cenario: COMPARTILHAR ARTIGO NO LINKEDIN
+        Dado que o usuário acessa a url "blog.idwall.co"
+        Quando clicar no icone do linkedin no rodapé da miniatura do artigo 
+        Então o site deverá acessar a página de compartilhamento do linkedin
+    
+    Cenario: COMPARTILHAR ARTIGO POR E-MAIL
+        Dado que o usuário acessa a url "blog.idwall.co"
+        Quando clicar no icone de e-mailno rodapé da miniatura do artigo 
+        Então o site deverá abrir o cliente de e-mail da maquina
