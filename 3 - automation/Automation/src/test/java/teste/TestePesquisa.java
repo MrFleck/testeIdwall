@@ -19,7 +19,7 @@ public class TestePesquisa {
 
     private WebDriver navegador;
     private ChromeOptions options;
-    private WebDriverWait wait;
+    private WebDriverWait wait; 
 
 
     @Before

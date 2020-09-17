@@ -32,8 +32,8 @@ Funcionalidade: ACESSAR LINKS DO MENU
 
     Cenario: ACESSAR PÁGINA IDENTIDADE ATRAVÉS DO LINK NO MENU
         Dado que o usuário acesse a url "blog.idwall.co" 
-        Quando clicar na opção "Due diligence" no menu
-        Então o link para a pagina Due diligence deverá ser acessado com sucesso
+        Quando clicar na opção "IDENTIDADE" no menu
+        Então o link para a pagina identidade deverá ser acessado com sucesso
 
     Cenario: ACESSAR PÁGINA ONBOARDING ATRAVÉS DO LINK NO MENU
         Dado que o usuário acesse a url "blog.idwall.co"
@@ -161,5 +161,5 @@ Funcionalidade: COMPARTILHAR ARTIGO PELOS LINKS DAS REDES SOCIAIS
     
     Cenario: COMPARTILHAR ARTIGO POR E-MAIL
         Dado que o usuário acessa a url "blog.idwall.co"
-        Quando clicar no icone de e-mailno rodapé da miniatura do artigo 
+        Quando clicar no icone de e-mail no rodapé da miniatura do artigo 
         Então o site deverá abrir o cliente de e-mail da maquina
