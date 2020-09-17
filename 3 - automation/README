@@ -1,6 +1,6 @@
 # TesteIdwall
 
-- Ter o java sdk e o jdk instalados na maquina.
+- Ter o java e o jdk instalados na maquina.
 - Ter o Maven instalado na maquina.
 - Foi usado a IntelliJ para realizar a automação deste caso de teste.
 - Abra o IntelliJ e importe a pasta "Automation" do projeto.
